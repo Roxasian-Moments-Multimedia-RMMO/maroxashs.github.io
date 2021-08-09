@@ -917,7 +917,7 @@ section {
 }
 
 .school-profile-content .bg {
-    background-color: #b8860b;
+    background-color: #e6a314;
 }
 
 .school-profile-content .vision-mission, .educational-goals {
@@ -1089,7 +1089,6 @@ section {
 --------------------------------------------------------------*/
 .message {
     height: 100%;
-    background-image: url(../img/message/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
