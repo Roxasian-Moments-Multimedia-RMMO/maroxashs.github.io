@@ -139,7 +139,7 @@ a:hover {
 --------------------------------------------------------------*/
 
 section {
-    padding: 140px 0;
+    padding: 145px 0;
 }
 
 .section-bg {
@@ -1143,3 +1143,6 @@ section.principal-statement {
     color: #733411;
 }
 
+.principal-statement p {
+    padding: 0;
+}
