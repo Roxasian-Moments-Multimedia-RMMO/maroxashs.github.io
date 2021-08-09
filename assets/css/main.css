@@ -945,6 +945,15 @@ section {
     font-size: 28px;
 }
 
+@media (max-width: 768px){
+    .school-profile-content .educational-goals h4, .school-profile-content .vision-mission h3 {
+        font-size: 16px;
+    }
+    .school-profile-content .educational-goals h5 {
+        font-size: 12px;
+    }
+}
+
 .school-profile-content .school-objectives, .school-profile-content .hymn {
     padding: 0;
 }
@@ -1017,6 +1026,13 @@ section {
     border-radius: 50px;
     outline: none;
     margin-top: 20px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .school-profile-content .hymn .box audio {
+        width: 230px;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -1034,6 +1050,15 @@ section {
     font-family: 'Bebas Neue Regular';
     color: #f8f8ff;
     font-size: 64px;
+}
+
+@media (max-width: 425px){
+    .mantra-cta h2 {
+        font-size: 48px;
+    }
+    .mantra-cta p {
+        font-size: 18px;
+    }
 }
 
 .mantra-cta p {
