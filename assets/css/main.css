@@ -1175,6 +1175,86 @@ section.principal-statement {
 }
 
 /*--------------------------------------------------------------
+# PROGRAMS SECTION
+--------------------------------------------------------------*/
+.programs {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.programs .card {
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+}
+
+.programs .card-img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+}
+
+.programs .card-img img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.programs .card-body {
+    z-index: 10;
+    background: #fff;
+    border-top: 4px solid #fff;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    transition: 0.3s;
+}
+
+.programs .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.programs .card-title a {
+    color: #733411;
+    transition: 0.3s;
+}
+
+.programs .card-text {
+    text-align: justify;
+    font-family: 'Trueno Light';
+    color: #5e5e5e;
+}
+
+.programs .read-more a {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.programs .read-more a:hover {
+    color: #b8860b;
+}
+
+.programs .card:hover img {
+    transform: scale(1.1);
+}
+
+.programs .card:hover .card-body {
+    border-color: #b8860b;
+}
+
+.programs .card:hover .card-body .card-title a {
+    color: #b8860b;
+}
+
+/*--------------------------------------------------------------
 # INNER PAGE PROGRAMS SHS
 --------------------------------------------------------------*/
 .inner-program-shs {
@@ -1334,4 +1414,41 @@ section.principal-statement {
 .program-details .program-info p {
     text-align: justify;
     font-family: 'Trueno Light';
+}
+
+/*--------------------------------------------------------------
+# CONTACT
+--------------------------------------------------------------*/
+.contact {
+    padding-top: 100px;
+}
+.contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    background: #fff;
+}
+
+.contact .info-box i {
+    font-size: 32px;
+    color: #733411;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #7333115b;
+}
+
+.contact .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contact .info-box p {
+    font-family: 'Trueno Light';
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
 }

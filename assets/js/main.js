@@ -161,7 +161,7 @@
      */
     window.addEventListener('load', () => {
         AOS.init({
-            duration:1000,
+            duration:1100,
             easing: 'ease-in-out',
             mirror: true,
             offset: 100
@@ -198,7 +198,7 @@
       spaceBetween: 10,
       speed: 400,
       autoplay: {
-        delal: 5000,
+        delay: 5000,
         disableOnInteraction: false
       },
       pagination: {
