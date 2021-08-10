@@ -1178,8 +1178,8 @@ section.principal-statement {
 # PROGRAMS SECTION
 --------------------------------------------------------------*/
 .programs {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .programs .card {
@@ -1420,7 +1420,7 @@ section.principal-statement {
 # CONTACT
 --------------------------------------------------------------*/
 .contact {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .contact .info-box {
     color: #444444;
