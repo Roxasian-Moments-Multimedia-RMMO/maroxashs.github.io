@@ -1173,3 +1173,165 @@ section.principal-statement {
 .principal-statement p {
     padding: 0;
 }
+
+/*--------------------------------------------------------------
+# INNER PAGE PROGRAMS SHS
+--------------------------------------------------------------*/
+.inner-program-shs {
+    padding: 80px 0 ;
+}
+
+.inner-program-shs .section-title p {
+    text-align: justify;
+}
+
+.inner-program-shs .program-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    height: 100%;
+    padding: 60px 30px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.inner-program-shs .program-box .icon {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    line-height: 0;
+    transition: 0.3s;
+}
+
+.inner-program-shs .program-box h3 {
+    font-family: 'Trueno SemiBold';
+    font-size: 1.2em;
+    color: #444444;
+}
+
+.inner-program-shs .program-box p {
+    font-family: 'Trueno Light';
+    font-weight: 500;
+    padding: 16px 0;
+    text-align: justify;
+}
+
+.inner-program-shs .program-box .read-more {
+    font-family: 'Trueno SemiBold';
+    font-weight: bold;
+    color: #444444;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 8px 20px;
+    position: relative;
+}
+
+.inner-program-shs .program-box .read-more i {
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.inner-program-shs .program-box.brown {
+    border-bottom: 3px solid #733411;
+}
+
+.inner-program-shs .program-box.yellow {
+    border-bottom: 3px solid #e6a314;
+}
+
+.inner-program-shs .program-box.brown .icon {
+    color: #733411;
+    background: #7333112d;
+}
+
+.inner-program-shs .program-box.yellow .icon {
+    color: #e6a314;
+    background: #e8b6423f;
+}
+
+.inner-program-shs .program-box.brown:hover {
+    color: #f6f9fe;
+    background: #733411;
+}
+
+.inner-program-shs .program-box.yellow:hover {
+    color: #f6f9fe;
+    background: #e6a314;
+}
+
+.inner-program-shs .program-box:hover h3, .inner-program-shs .program-box:hover .read-more {
+    color: #f6f9fe;
+}
+
+.inner-program-shs .program-box:hover .icon {
+    background: #fff;
+}
+
+.inner-program-shs .program-box:hover h3 p {
+    color: red;
+}
+
+/*--------------------------------------------------------------
+# PROGRAM DETAILS SHS
+--------------------------------------------------------------*/
+.program-details {
+    padding: 80px 0;
+}
+
+.program-details .program-details-slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.program-details .program-details-slider .swiper-pagination  {
+    margin-top: 20px;
+    position: relative;
+}
+
+.program-details .program-details-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #733411;
+}
+
+.program-details .program-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #733411;
+}
+
+.program-details .program-info {
+    text-align: justify;
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.program-details .program-info {
+    text-align: center;
+}
+
+.program-details .program-info h3 {
+    font-family: 'Trueno SemiBold';
+    position: relative;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    border-radius: 30px 30px 30px 0;
+    color: #444444;
+    background-color: #e6a314;
+    font-size: 13px;
+}
+
+.program-details .program-info h2 {
+    font-family: 'Trueno SemiBold';
+    font-size: 20px;
+}
+
+.program-details .program-info p {
+    text-align: justify;
+    font-family: 'Trueno Light';
+}
