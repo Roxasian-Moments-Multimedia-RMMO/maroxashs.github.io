@@ -313,7 +313,7 @@ section {
     height: 75px;
 }
 
-#header .logo img {
+#header .logo {
     max-height: 70px;
     image-rendering: optimizeQuality;
 }
