@@ -208,4 +208,9 @@
       },
       loop: true
     });
+    $('.jarallax').jarallax({
+      speed: 0.5,
+      disableParallax: false,
+      disableVideo: false
+  });
 })(jQuery);
