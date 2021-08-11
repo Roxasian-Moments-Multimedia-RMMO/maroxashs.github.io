@@ -1043,6 +1043,7 @@ section {
 # MANTRA CALL TO ACTION
 --------------------------------------------------------------*/
 .mantra-cta {
+    background-image: url(../img/about/school-profile/bg-4.jpg);
     height: 510px;
     background-size: cover;
     display: flex;
