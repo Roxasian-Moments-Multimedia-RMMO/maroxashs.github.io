@@ -1368,6 +1368,14 @@ section.principal-statement {
     height: 100%;
 }
 
+.program-details .program-details-slider img:hover {
+    cursor: grab;
+}
+
+.program-details .program-details-slider img:active {
+    cursor: grabbing;
+}
+
 .program-details .program-details-slider .swiper-pagination  {
     margin-top: 20px;
     position: relative;
