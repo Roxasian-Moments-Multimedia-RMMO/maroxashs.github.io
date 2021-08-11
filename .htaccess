@@ -20,4 +20,6 @@
   RewriteCond %{REQUEST_URI} !/$
   RewriteRule (.*) $1\.html [L]
 
+  RewriteEngine On
+  RewriteRule ^index\.(php|html?)$ https://roxasian-moments-multimedia-rmmo.github.io/maroxashs.github.io/ [R=301,L]  
 </IfModule>
